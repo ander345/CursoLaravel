@@ -11,6 +11,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        $this=>trun
         // $this->call(UsersTableSeeder::class);
+    }
+
+    protected function truncateTables(array $tablas){
+        DB::statement('drop table users')
     }
 }

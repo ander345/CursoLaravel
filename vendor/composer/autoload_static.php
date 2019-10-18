@@ -4212,6 +4212,7 @@ class ComposerStaticInitb21f2e8d95e465149258c58e001afd8a
         'phpDocumentor\\Reflection\\Types\\String_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/String_.php',
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
+        'tablarolseeder' => __DIR__ . '/../..' . '/database/seeds/tablarolseeder.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
